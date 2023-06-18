@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test sait - Профиль</title>
+    <style>
+        .btn {
+         display: inline-block; /* Строчно-блочный элемент */
+         background: #1341d6; /* Серый цвет фона */
+         color: #fff; /* Белый цвет текста */
+         padding: 1rem 1.5rem; /* Поля вокруг текста */
+         text-decoration: none; /* Убираем подчёркивание */
+         border-radius: 5px; /* Скругляем уголки */
+        }
+       </style>
+</head>
+<body>
+    <div>
+        <h1>Name: {{ name }}</h1>
+        <h1>Surname: {{ surname }}</h1>
+        <h1>Birthday: {{ birthday }}</h1>
+        <h1>Login: {{ login }}</h1>
+        <h1>Email: {{ email }}</h1>
+        <a href="/" class="btn" >На главную</a>
+    </div>
+</body>
+</html>
